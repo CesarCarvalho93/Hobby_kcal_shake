@@ -46,7 +46,8 @@ Existem duas versões principais da calculadora, adaptadas para diferentes neces
 
 ---
 
-*Nota: Esta ferramenta fornece cálculos matemáticos baseados em tabelas nutricionais médias. Sempre consulte um nutricionista para ajustes individuais à sua dieta.*
-
+> [!NOTE]  
+> **Desenvolvimento Assistido por IA**  
+> Este projeto foi 100% desenvolvido e programado através de assistência de Inteligência Artificial (Google DeepMind / Antigravity), desde a arquitetura matemática até o design da interface.
 
 ![1772198139460](image/README/1772198139460.png)![1772198147029](image/README/1772198147029.png)
